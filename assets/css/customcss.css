@@ -102,7 +102,7 @@ table.dataTable > tbody > tr.child:hover {
   }
 }
 
-.marquee {
+/* .marquee {
   background-color: #f7f7f7;
   padding: 10px;
   border-radius: 5px;
@@ -123,7 +123,7 @@ table.dataTable > tbody > tr.child:hover {
   100% {
     transform: translateX(-100%);
   }
-}
+} */
 
 .bg-purple {
   background-color: #605ca8 !important;
@@ -194,7 +194,7 @@ table.dataTable > tbody > tr.child:hover {
   -o-transition: all 0.3s linear;
   transition: all 0.3s linear;
   position: absolute;
-  top: 14px;
+  top: 0px;
   right: 25px;
   z-index: 0;
   font-size: 90px;
@@ -265,4 +265,18 @@ table.dataTable > tbody > tr.child:hover {
   background-color: #ccc;
   color: #999;
   cursor: not-allowed;
+}
+
+.col-3-5 {
+  flex: 0 0 29.166667%; /* Lebar kustom: (3.5/12) * 100 */
+  max-width: 29.166667%;
+}
+
+.text-currency {
+  display: inline-flex;
+  align-items: baseline;
+}
+.text-currency span {
+  margin-right: 4px;
+  font-weight: bold;
 }

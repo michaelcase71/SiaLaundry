@@ -1,6 +1,6 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/webservices/config.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/lib/function.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/webservices/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/lib/function.php";
 
 // Panggil fungsi untuk update jurnal umum
 

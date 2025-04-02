@@ -1,7 +1,7 @@
 <?php
 // Sertakan file yang mendefinisikan fungsi Tampil_Data
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/webservices/config.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/lib/function.php"; // Pastikan path ini benar
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/webservices/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/lib/function.php"; // Pastikan path ini benar
 ?>
 
 <div class="main-content">

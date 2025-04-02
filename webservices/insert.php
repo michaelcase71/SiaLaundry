@@ -1,9 +1,9 @@
 <?php
 session_start();
-include $_SERVER['DOCUMENT_ROOT'] . "/UasSia/webservices/config.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/webservices/config.php";
 include "../lib/function.php"; // Pastikan file ini berisi definisi fungsi Insert_Data()
 
-$baseURL = "http://localhost/UasSia"; // Pastikan URL ini sesuai dengan path proyek Anda
+$baseURL = "http://localhost/SiaLaundry"; // Pastikan URL ini sesuai dengan path proyek Anda
 date_default_timezone_set('Asia/Jakarta');
 $time = date('Y-m-d H:i:s'); // Atau format waktu lain sesuai kebutuhan Anda
 

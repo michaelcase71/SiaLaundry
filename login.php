@@ -1,6 +1,6 @@
 <?php
 
-$configPath = $_SERVER['DOCUMENT_ROOT'] . "/UasSia/webservices/config.php";
+$configPath = $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/webservices/config.php";
 if (file_exists($configPath)) {
     include $configPath;
 } else {
@@ -48,7 +48,6 @@ if (isset($login)) {
                             </div>
                             <div class="auth-content my-auto">
                                 <div class="text-center">
-                                    <h5 class="mb-0">Selamat datang di Sistem Informasi Akuntansi Laundry</h5>
                                 </div>
                                 <form class="mt-4 pt-2" method="POST">
                                     <?php

@@ -1,8 +1,8 @@
 <?php
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/webservices/config.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/lib/function.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/pages/update/hutang.php";
-// require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/pages/validasilaundry.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/webservices/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/lib/function.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/pages/update/hutang.php";
+// require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/pages/validasilaundry.php";
 
 // Debugging to ensure file includes are correct
 if (function_exists('Tampil_Data')) {

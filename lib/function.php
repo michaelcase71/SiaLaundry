@@ -57,7 +57,7 @@ function Tampil_Data($namaApi)
         ),
     );
     // URL API internal
-    $apiURL = 'http://localhost/UASSIA/webservices/api/' . $namaApi . '.php';
+    $apiURL = 'http://localhost/SiaLaundry/webservices/api/' . $namaApi . '.php'; 
 
     // Panggil API menggunakan file_get_contents
     $response = file_get_contents($apiURL, false, stream_context_create($arrContextOptions));

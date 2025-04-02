@@ -2,10 +2,10 @@
 
 <?php
 // Sertakan file yang mendefinisikan fungsi Tampil_Data
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/webservices/config.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/lib/function.php"; // Pastikan path ini benar
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/pages/add/master/customer.php";
-require_once $_SERVER['DOCUMENT_ROOT'] . "/UasSia/pages/update/master/customer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/webservices/config.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/lib/function.php"; // Pastikan path ini benar
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/pages/add/master/customer.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . "/SiaLaundry/pages/update/master/customer.php";
 
 // Debugging untuk memastikan file di-include dengan benar
 if (function_exists('Tampil_Data')) {
