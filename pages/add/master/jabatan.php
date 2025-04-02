@@ -1,6 +1,6 @@
 <div>
     <div class="modal fade" id="insertModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Form Input Data Jabatan</h5>
@@ -9,18 +9,16 @@
                 <div class="modal-body">
                     <form method="POST" action="webservices/insert.php" enctype="multipart/form-data">
                         <div class="row">
-                            <div class="col-lg-6">
-                                <div class="mb-3">
-                                    <label for="nama" class="form-label">Nama Jabatan</label>
-                                    <input type="text" class="form-control" name="nama_jabatan" id="nama">
-                                </div>
-                                <div class="mb-3">
-                                    <label for="nama" class="form-label">Gaji Pokok</label>
-                                    <input type="number" class="form-control" name="gaji_pokok" id="nama">
-                                </div>
-                                <div class="mb-3 d-flex flex-column">
-                                    <button name="insert_jabatan" type="submit" class="btn btn-primary">Simpan Data</button>
-                                </div>
+                            <div class="mb-3">
+                                <label for="nama" class="form-label">Nama Jabatan</label>
+                                <input type="text" class="form-control" name="nama_jabatan" id="nama">
+                            </div>
+                            <div class="mb-3">
+                                <label for="nama" class="form-label">Gaji Pokok</label>
+                                <input type="number" class="form-control" name="gaji_pokok" id="nama">
+                            </div>
+                            <div class="mb-3 d-flex flex-column">
+                                <button name="insert_jabatan" type="submit" class="btn btn-primary">Simpan Data</button>
                             </div>
                         </div>
                     </form>
